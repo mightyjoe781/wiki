@@ -61,6 +61,9 @@ local function get_wikiformspec(player,text_to_show)
             "button[1.86,-0.15;2.21,0.91;tab2;".. wiki_tab_2 .."]"..
             "button[3.94,-0.15;2.13,0.91;tab3;".. wiki_tab_3 .. "]"..
             "button[5.94,-0.15;2.13,0.91;tab4;".. wiki_tab_4 .."]"..
+            "button[4.57,8.43;1.5,0.74;save;Save]"..
+            --"button[4.57,8.43;1.5,0.74;edit;Edit]"..
+            "button[3.25,8.43;1.5,0.74;cancel;Cancel]"..
             "button_exit[5.94,8.43;2.13,0.74;close;Close]"..
             "label[0.02,8.52;".. sname .. " Guide]"
     -- singlelineparser() -- update the tabs values based on single line ini
