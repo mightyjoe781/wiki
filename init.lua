@@ -1,7 +1,7 @@
 -- parsing the inifile
 -- -- dump for debug
 --
-local sname = "Prismo"
+local sname = minetest.settings:get("server_name")
 local wiki_tab_1="Server"
 local wiki_tab_2="Rules"
 local wiki_tab_3="Commands"
